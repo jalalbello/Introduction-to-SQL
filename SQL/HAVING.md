@@ -2,7 +2,7 @@
 
 ## Its a filter condition for data returned by the GROUP BY clause
 
-### TASK : Get all actors that have the same first and last name
+### TASK : Get actors that have the same first name if they there is more than 3 of them in ascending order
 
 ```sql
 SELECT first_name, COUNT(*)
@@ -11,5 +11,3 @@ GROUP BY 1
 HAVING COUNT(*)>3 
 ORDER BY 1
 ```
-
-### TASK : Get actors that have the same first name if they there is more than 3 of them in ascending order
