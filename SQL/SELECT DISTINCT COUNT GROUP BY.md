@@ -38,3 +38,7 @@ FROM actor
 GROUP BY last_name
 ORDER BY 2 DESC 
 ```
+
+# UNION and UNION ALL
+
+UNION removes duplicates, while UNION ALL does not

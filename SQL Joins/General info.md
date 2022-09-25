@@ -45,3 +45,7 @@ When we filter in **from** we filter that data before the join, where is a filte
 
 Always ask:
 > When is this filter being applied to my data
+
+## Mostly keep filters in the Where clause
+
+This will make ur code easier to read and interpret
